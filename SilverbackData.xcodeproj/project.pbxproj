@@ -10,6 +10,16 @@
 		8F0A93651C6C86E3006BC534 /* SilverbackData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0A93641C6C86E3006BC534 /* SilverbackData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0A936C1C6C86E4006BC534 /* SilverbackData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0A93611C6C86E3006BC534 /* SilverbackData.framework */; };
 		8F0A93711C6C86E4006BC534 /* SilverbackDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A93701C6C86E4006BC534 /* SilverbackDataTests.swift */; };
+		8F0A93841C6C870A006BC534 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A937B1C6C870A006BC534 /* NSManagedObject.swift */; };
+		8F0A93851C6C870A006BC534 /* NSManagedObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A937C1C6C870A006BC534 /* NSManagedObjectModel.swift */; };
+		8F0A93861C6C870A006BC534 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A937D1C6C870A006BC534 /* NSManagedObjectContext.swift */; };
+		8F0A93871C6C870A006BC534 /* FetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A937E1C6C870A006BC534 /* FetchedResultsController.swift */; };
+		8F0A93881C6C870A006BC534 /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A937F1C6C870A006BC534 /* FetchedResultsTableViewController.swift */; };
+		8F0A93891C6C870A006BC534 /* FetchedResultsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A93801C6C870A006BC534 /* FetchedResultsCollectionViewController.swift */; };
+		8F0A938A1C6C870A006BC534 /* NSPersistentStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A93811C6C870A006BC534 /* NSPersistentStoreCoordinator.swift */; };
+		8F0A938B1C6C870A006BC534 /* NSFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A93821C6C870A006BC534 /* NSFetchedResultsController.swift */; };
+		8F0A938C1C6C870A006BC534 /* ManagedObjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A93831C6C870A006BC534 /* ManagedObjectDetailViewController.swift */; };
+		8F0A938F1C6C8769006BC534 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A938E1C6C8769006BC534 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		8F0A936B1C6C86E4006BC534 /* SilverbackDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverbackDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A93701C6C86E4006BC534 /* SilverbackDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverbackDataTests.swift; sourceTree = "<group>"; };
 		8F0A93721C6C86E4006BC534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A937B1C6C870A006BC534 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
+		8F0A937C1C6C870A006BC534 /* NSManagedObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectModel.swift; sourceTree = "<group>"; };
+		8F0A937D1C6C870A006BC534 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		8F0A937E1C6C870A006BC534 /* FetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsController.swift; sourceTree = "<group>"; };
+		8F0A937F1C6C870A006BC534 /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableViewController.swift; sourceTree = "<group>"; };
+		8F0A93801C6C870A006BC534 /* FetchedResultsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsCollectionViewController.swift; sourceTree = "<group>"; };
+		8F0A93811C6C870A006BC534 /* NSPersistentStoreCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPersistentStoreCoordinator.swift; sourceTree = "<group>"; };
+		8F0A93821C6C870A006BC534 /* NSFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFetchedResultsController.swift; sourceTree = "<group>"; };
+		8F0A93831C6C870A006BC534 /* ManagedObjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObjectDetailViewController.swift; sourceTree = "<group>"; };
+		8F0A938E1C6C8769006BC534 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,7 @@
 		8F0A93571C6C86E3006BC534 = {
 			isa = PBXGroup;
 			children = (
+				8F0A938E1C6C8769006BC534 /* Cartfile */,
 				8F0A93631C6C86E3006BC534 /* SilverbackData */,
 				8F0A936F1C6C86E4006BC534 /* SilverbackDataTests */,
 				8F0A93621C6C86E3006BC534 /* Products */,
@@ -71,8 +92,16 @@
 		8F0A93631C6C86E3006BC534 /* SilverbackData */ = {
 			isa = PBXGroup;
 			children = (
-				8F0A93641C6C86E3006BC534 /* SilverbackData.h */,
-				8F0A93661C6C86E3006BC534 /* Info.plist */,
+				8F0A938D1C6C8711006BC534 /* Supporting Files */,
+				8F0A937B1C6C870A006BC534 /* NSManagedObject.swift */,
+				8F0A937C1C6C870A006BC534 /* NSManagedObjectModel.swift */,
+				8F0A937D1C6C870A006BC534 /* NSManagedObjectContext.swift */,
+				8F0A937E1C6C870A006BC534 /* FetchedResultsController.swift */,
+				8F0A937F1C6C870A006BC534 /* FetchedResultsTableViewController.swift */,
+				8F0A93801C6C870A006BC534 /* FetchedResultsCollectionViewController.swift */,
+				8F0A93811C6C870A006BC534 /* NSPersistentStoreCoordinator.swift */,
+				8F0A93821C6C870A006BC534 /* NSFetchedResultsController.swift */,
+				8F0A93831C6C870A006BC534 /* ManagedObjectDetailViewController.swift */,
 			);
 			path = SilverbackData;
 			sourceTree = "<group>";
@@ -84,6 +113,15 @@
 				8F0A93721C6C86E4006BC534 /* Info.plist */,
 			);
 			path = SilverbackDataTests;
+			sourceTree = "<group>";
+		};
+		8F0A938D1C6C8711006BC534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A93641C6C86E3006BC534 /* SilverbackData.h */,
+				8F0A93661C6C86E3006BC534 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0A938F1C6C8769006BC534 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0A938A1C6C870A006BC534 /* NSPersistentStoreCoordinator.swift in Sources */,
+				8F0A93841C6C870A006BC534 /* NSManagedObject.swift in Sources */,
+				8F0A938B1C6C870A006BC534 /* NSFetchedResultsController.swift in Sources */,
+				8F0A938C1C6C870A006BC534 /* ManagedObjectDetailViewController.swift in Sources */,
+				8F0A93891C6C870A006BC534 /* FetchedResultsCollectionViewController.swift in Sources */,
+				8F0A93881C6C870A006BC534 /* FetchedResultsTableViewController.swift in Sources */,
+				8F0A93861C6C870A006BC534 /* NSManagedObjectContext.swift in Sources */,
+				8F0A93871C6C870A006BC534 /* FetchedResultsController.swift in Sources */,
+				8F0A93851C6C870A006BC534 /* NSManagedObjectModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +356,7 @@
 		8F0A93761C6C86E4006BC534 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +367,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.SilverbackData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8F0A93771C6C86E4006BC534 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
