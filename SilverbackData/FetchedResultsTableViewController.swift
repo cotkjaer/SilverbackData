@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Silverback
 
 public class FetchedResultsTableViewController: UITableViewController, ManagedObjectDetailControllerDelegate
 {

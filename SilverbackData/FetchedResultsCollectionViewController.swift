@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Silverback
 
 public class FetchedResultsCollectionViewController: UICollectionViewController, NSFetchedResultsControllerDelegate, ManagedObjectDetailControllerDelegate
 {
@@ -118,10 +119,10 @@ public class FetchedResultsCollectionViewController: UICollectionViewController,
         
         fetch()
         
-        if #available(iOS 9.0, *)
-        {
+//        if #available(iOS 9.0, *)
+//        {
             setupRearranging()
-        }
+//        }
     }
 
     /*

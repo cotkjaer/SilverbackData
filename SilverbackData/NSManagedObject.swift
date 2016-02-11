@@ -8,16 +8,14 @@
 
 import CoreData
 import UIKit
+import Silverback
 
 extension NSManagedObject
 {
+    ///returns the class-name 
     public class var entityName: String
     {
         return baseName()
-        
-//        let fullClassName: String = NSStringFromClass(object_getClass(self))
-//        let classNameComponents: [String] = fullClassName.componentsSeparatedByString(".")// split(fullClassName) { $0 == "." }
-//        return classNameComponents.last!
     }
     
     public class func fetchRequest() -> NSFetchRequest
